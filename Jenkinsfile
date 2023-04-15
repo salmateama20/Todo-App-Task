@@ -2,10 +2,10 @@ pipeline {
    agent any
     
     stages {
-       stage('Clone') {
-         steps {
-            git url: 'https://github.com/dobromir-hristov/todo-app.git'
-           }
+        stage('Checkout') {
+            steps {
+                sh 'git clone https://github.com/dobromir-hristov/todo-app.git'
+            }
         }
 
         stage('Install dependencies') {
