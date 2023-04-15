@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                sh ' git clone https://github.com/dobromir-hristov/todo-app.git'
+                sh 'git clone https://github.com/dobromir-hristov/todo-app.git'
             }
         }
 
