@@ -1,6 +1,6 @@
 # Todo-App-Task
 
-## Previously Installed![Docker-compose](https://user-images.githubusercontent.com/91135838/232257957-e0394fb0-25d7-43ca-89ed-8230671112b9.jpeg)
+## Previously Installed
 
 - Docker and VScode/Git Bash installed.
 - Note: in my case i was working on VScode and using the git bash terminal in it.
@@ -13,8 +13,7 @@
 
 2-Extract All
 
-3-RIght Click on the floder and choose open with VScode.![Docker-compose](https://user-images.githubusercontent.com/91135838/232257954-130ac86e-ed83-40fb-83c9-e3079bc39313.jpeg)
-
+3-RIght Click on the floder and choose open with VScode.
 
 4-On the VScode App top bar click on the terminal >new terminal.
 
@@ -26,7 +25,7 @@
 
 7-On the git bash terminal that we perviously opened write docker-compose up -d 
 *it will take a while during the first trial*
-![Screenshot](Docker-compose.jpeg)
+![Docker-compose](https://user-images.githubusercontent.com/91135838/232257954-130ac86e-ed83-40fb-83c9-e3079bc39313.jpeg)
 
 8-Open jenkins servers in the meantime http://localhost:8080/ in order to observe if it worked yet.
 *It will work after the container is running*
@@ -37,6 +36,8 @@
 10-Now a screen asking for the adminstrator password will appear on Jenkins server
 
 11-You may find it in the ouptut of the docker-compose up or /secrets/initialAdminPassword located in var/jekins_home
+*By now npm should be successfully installed from nodejs package*
+![Succcessful npm installation](https://user-images.githubusercontent.com/91135838/232258008-ce5d6007-5a89-46b8-9874-2481c4986a06.jpeg)
 
 12-you may sign up after that or continue as admin
 
@@ -53,3 +54,4 @@
 18-click save
 
 19-click on build now to successfully observe all the stage build.
+![Pipeline](https://user-images.githubusercontent.com/91135838/232258062-43223a2d-0a5f-48b4-9636-2be275716942.jpeg)
