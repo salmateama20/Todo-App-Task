@@ -1,6 +1,5 @@
 pipeline {
    agent any
-    
     stages {
         stage('Checkout') {
             steps {
@@ -11,21 +10,21 @@ pipeline {
         stage('Install dependencies') {
             steps {
                sh 'npm install --no-deprecated --omit=optional'
-                sh 'npm install'
+                
             }
         }
-
-        stage('Run tests') {
-            steps {
-                sh 'npm test'
-            }
-        }
-
         stage('Build') {
             steps {
                 sh 'npm run build'
             }
         }
+        stage('Run tests') {
+            steps {
+                sh 'npm test:unit --headless'
+            }
+        }
+
+        
 
         // stage('Build Docker image') {
         //     steps {
