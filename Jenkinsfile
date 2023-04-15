@@ -20,29 +20,10 @@ pipeline {
         }
         stage('Run tests') {
             steps {
-                sh 'npm test'
+                sh 'npm test:unit --headless'
             }
         }
 
         
-
-        // stage('Build Docker image') {
-        //     steps {
-        //         script {
-        //             def dockerImage = docker.build("salmateama20/todo-app-1:${env.BUILD_NUMBER}")
-        //         }
-        //     }
-        // }
-
-        // stage('Push Docker image') {
-        //     steps {
-        //         script {
-        //             docker.withRegistry('https://github.com/salmateama20/todo-app-1.git') {
-        //                 def dockerImage = docker.image("salmateama20/todo-app-1:${env.BUILD_NUMBER}")
-        //                 dockerImage.push()
-        //             }
-        //         }
-        //     }
-        // }
     }
 }
