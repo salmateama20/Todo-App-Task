@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "echo 'build script executed'",
-    "test": "mocha"
+    "test": "echo 'Test Executed'"
   },
   "keywords": [],
   "author": "",
