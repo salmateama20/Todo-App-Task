@@ -4,7 +4,7 @@ pipeline {
     stages {
        stage('Clone') {
          steps {
-            git 'https://github.com/dobromir-hristov/todo-app.git'
+            git url: 'https://github.com/dobromir-hristov/todo-app.git'
            }
         }
 
