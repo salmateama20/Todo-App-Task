@@ -2,7 +2,7 @@
 
 ## Previously Installed
 - Docker and VScode/Git Bash installed.
-  -Note: in my case i was working on VScode and using the git bash terminal in it.
+- Note: in my case i was working on VScode and using the git bash terminal in it.
 
 
 ## Steps to run
