@@ -10,6 +10,7 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
+               sh 'npm install --no-deprecated --omit=optional'
                 sh 'npm install'
             }
         }
