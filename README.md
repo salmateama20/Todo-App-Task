@@ -1,6 +1,7 @@
 # Todo-App-Task
 
-## Previously Installed
+## Previously Installed![Docker-compose](https://user-images.githubusercontent.com/91135838/232257957-e0394fb0-25d7-43ca-89ed-8230671112b9.jpeg)
+
 - Docker and VScode/Git Bash installed.
 - Note: in my case i was working on VScode and using the git bash terminal in it.
 
@@ -12,7 +13,8 @@
 
 2-Extract All
 
-3-RIght Click on the floder and choose open with VScode.
+3-RIght Click on the floder and choose open with VScode.![Docker-compose](https://user-images.githubusercontent.com/91135838/232257954-130ac86e-ed83-40fb-83c9-e3079bc39313.jpeg)
+
 
 4-On the VScode App top bar click on the terminal >new terminal.
 
@@ -24,6 +26,7 @@
 
 7-On the git bash terminal that we perviously opened write docker-compose up -d 
 *it will take a while during the first trial*
+![Screenshot](Docker-compose.jpeg)
 
 8-Open jenkins servers in the meantime http://localhost:8080/ in order to observe if it worked yet.
 *It will work after the container is running*
