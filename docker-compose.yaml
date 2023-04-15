@@ -11,4 +11,5 @@ services:
       - 50000:50000
     container_name: happy_engelbart
     volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
         - /var/jenkins_home  
